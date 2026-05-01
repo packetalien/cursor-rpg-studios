@@ -1,0 +1,26 @@
+---
+description: Quantum Plaid density for draft manuscripts — quotes, NPCs, Cosmic Backfire tables.
+globs: docs/drafts/**/*.md
+alwaysApply: false
+---
+# Rule: quantum-plaid-density
+
+Applies to **draft** Markdown under `docs/drafts/` only.
+
+## Non-negotiables (chapter-scale)
+
+| Element | Requirement |
+| --- | --- |
+| Operator quotes / marginalia | **≥ 15** distinct carved-voice lines (personas include **EIC Ledger Clerk**, **Clockwork Baron**, **Forbidden Wing** warnings, brass-age stoics) |
+| GURPS 4e NPC stat blocks | **≥ 12** valid blocks with hooks |
+| Sensory covenant | Explicit multisensory subsection with **mechanical** hooks where applicable |
+| Phase bridges | Anchored cross-links to prior/sister books (`{#anchor}`) |
+| Cosmic Backfire | For **artifacts with artifact value ≥ 80**, include the **severe failure** table: critical failure on **3–4** (3d6 read as setting doc) → entries such as **Temporal Inversion** (stealth penalties from prophetic screaming), **Sanity Blast** (fright checks at severe penalty), and other metaphysical defects per *Alexandria Unbound* doctrine |
+
+## Prohibited
+
+- Shipping JSON `alexandria_*_entry_v1` exports **before** prose gates pass Editorial review (Human Imagination First).
+
+## Reference
+
+- [`quantum_plaid.md`](../../quantum_plaid.md)

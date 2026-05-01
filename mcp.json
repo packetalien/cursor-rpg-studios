@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "lorevault": {
+      "command": "python3",
+      "args": [
+        "-m",
+        "lorevault_mcp.server"
+      ],
+      "cwd": "${workspaceFolder}/mcp-server",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/mcp-server/src"
+      }
+    }
+  }
+}

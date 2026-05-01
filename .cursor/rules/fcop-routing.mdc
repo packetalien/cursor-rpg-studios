@@ -1,0 +1,18 @@
+---
+description: File-based Coordination Protocol — status queue naming discipline.
+globs: docs/agents/status/*.md
+alwaysApply: false
+---
+# Rule: fcop-routing
+
+Files in `docs/agents/status/` are **routing tokens**. The **filename** encodes the next consumer; the **body** is the payload.
+
+## Conventions
+
+- Use descriptive slugs: `concept-to-narrative-director.md` → after processing rename to `approved-to-world-architect.md` (example pattern).
+- One writer at a time per logical document; collisions **escalate** to Producer for human merge.
+- Do not store secrets in queue files.
+
+## Reference
+
+- [`docs/agents/status/README.md`](../../docs/agents/status/README.md)

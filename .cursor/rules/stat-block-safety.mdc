@@ -1,0 +1,10 @@
+---
+description: JSON stat and export safety — alexandria_npc_entry_v1 shape.
+globs: "**/*.json"
+alwaysApply: false
+---
+# Rule: stat-block-safety
+
+- Validate character and export JSON against `data/schemas/alexandria_npc_entry_v1.schema.json` (and downstream `alexandria_*_entry_v1` schemas).
+- **No trailing commas**; arrays and objects must parse with strict JSON.
+- Reject writes when derived stats disagree with declared attributes — route fixes to **Stat Block Engineer** + MCP tools.

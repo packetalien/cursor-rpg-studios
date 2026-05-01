@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lorevault-mcp"
+version = "0.1.0"
+description = "stdio MCP stub for Cursor RPG Studios (lorevault)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "mcp>=1.2.0",
+  "jsonschema>=4.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+lorevault-mcp = "lorevault_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lorevault_mcp"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/lorevault_mcp", "README.md"]

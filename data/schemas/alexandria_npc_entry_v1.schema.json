@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cursor-rpg-studios.local/schemas/alexandria_npc_entry_v1.schema.json",
+  "title": "alexandria_npc_entry_v1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["schema_version", "name", "st", "dx", "iq", "ht"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "st": { "type": "integer", "minimum": 1, "maximum": 100 },
+    "dx": { "type": "integer", "minimum": 1, "maximum": 100 },
+    "iq": { "type": "integer", "minimum": 1, "maximum": 100 },
+    "ht": { "type": "integer", "minimum": 1, "maximum": 100 },
+    "hp": { "type": "integer" },
+    "will": { "type": "integer" },
+    "per": { "type": "integer" },
+    "thrust_dice": { "type": "string" },
+    "swing_dice": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

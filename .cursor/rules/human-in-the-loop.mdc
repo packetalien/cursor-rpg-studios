@@ -1,0 +1,14 @@
+---
+description: Human-in-the-loop — Ask, options, pros/cons, Director prompt.
+globs: "**/*"
+alwaysApply: true
+---
+# Rule: human-in-the-loop
+
+All generative sequences that can affect **canon**, **mechanics**, or **repository state** must:
+
+1. Summarize **2–4** distinct options.
+2. List **narrative** and **mechanical** pros/cons for each.
+3. Halt with: **What do you think, Director?**
+
+**No silent auto-edits** to canonical Obsidian/vault paths without explicit human approval (see lorevault write policy).
