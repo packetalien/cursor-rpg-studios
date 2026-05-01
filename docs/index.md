@@ -1,5 +1,6 @@
 # Documentation index
 
+- [Cursor install — pointer to setup + README quick path](cursor-install.md)
 - [Cursor setup — clone, two workspace modes, MCP JSON, pytest, publish](cursor-setup.md) (start at [Section 0](cursor-setup.md#0-start-here))
 - [Human–machine dual-layer pattern](human-machine-dual-layer-pattern.md)
 - [Style audit — Phase 0 (Schwartz gate)](audits/style-audit-phase0.md)

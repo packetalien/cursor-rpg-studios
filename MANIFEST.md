@@ -36,6 +36,7 @@
 | `skills/00-skill-forge-matrix.md` | Nine production phases × example slash commands |
 | `docs/index.md` | Link hub (no prose duplication) |
 | `docs/cursor-setup.md` | Cursor + MCP + env deep setup (GitHub-safe paths) |
+| `docs/cursor-install.md` | Short pointer to setup + README quick path (`install` search aid) |
 | `docs/human-machine-dual-layer-pattern.md` | Canonical vs reader companion studio contract |
 | `docs/audits/style-audit-phase0.md` | Phase 0 Schwartz / style gate report vs Alexandria + OsirisForge |
 | `docs/drafts/**/*.md` | Draft manuscript staging (`quantum-plaid-density.mdc` scoped) |

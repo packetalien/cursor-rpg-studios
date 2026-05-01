@@ -87,6 +87,8 @@ This repository intentionally uses **multiple root operational Markdown files** 
 
 | Document | Role |
 | --- | --- |
+| [`docs/cursor-setup.md`](docs/cursor-setup.md) | Clone, MCP merge, two workspace modes, pytest, troubleshooting |
+| [`docs/cursor-install.md`](docs/cursor-install.md) | One-screen pointer to setup (for `install` / agent filename search) |
 | [`ROADMAP.md`](ROADMAP.md) | Phases 0–10, exit criteria, Quantum Plaid alignment |
 | [`TASKLIST.md`](TASKLIST.md) | Living sprint board |
 | [`STATUS.md`](STATUS.md) | Health and recent updates |
