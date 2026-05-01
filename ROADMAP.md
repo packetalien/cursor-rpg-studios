@@ -12,7 +12,7 @@
 
 ## Executive summary
 
-**Cursor RPG Studios** implements a **49-agent / 72-skill** hierarchy (Claude-Code-Game-Studios pattern) adapted for **TTRPG publishing** and *Alexandria Unbound* **GURPS 4e** rigor. Coordination uses **FCoP** (file renames in `docs/agents/status/`) to avoid context-window bloat; memory uses **lorevault-mcp** (vectors + graph + Obsidian SSoT). **Phase 1 is IN PROGRESS** at initial scaffolding: agents, `.mdc` rules, MCP **stdio stub**, documentation spine.
+**Cursor RPG Studios** implements a **49-agent / 72-skill** hierarchy (Claude-Code-Game-Studios pattern) adapted for **TTRPG publishing** and *Alexandria Unbound* **3D6 System** rigor (**GURPS 4e compatible**). Coordination uses **FCoP** (file renames in `docs/agents/status/`) to avoid context-window bloat; memory uses **lorevault-mcp** (vectors + graph + Obsidian SSoT). **Phase 1 is IN PROGRESS** at initial scaffolding: agents, `.mdc` rules, MCP **stdio stub**, documentation spine.
 
 ## Phase 0 — Bootstrap {#phase-0--bootstrap}
 
@@ -31,7 +31,7 @@
 | Density (standard) | **≥ 9.0** composite |
 | Density (Gear Library / Centerpiece) | **≥ 9.5** |
 | Operator quotes | **15** per chapter |
-| GURPS NPC stat blocks | **12** per chapter |
+| 3D6 System NPC stat blocks | **12** per chapter |
 | Tables | **8–12** numbered with `{#table-…}` |
 | Adventure seeds | **10–15** high-stakes |
 | Sensory covenant | Explicit multisensory + mechanical hooks |
@@ -46,7 +46,7 @@
 | **2** | Skill Forge | 72 skill playbooks under `.cursor/skills/` with YAML frontmatter | Producer |
 | **3** | MCP memory integration | Chroma + graph DB wired to MCP tools (read paths) | Mechanics Director |
 | **4** | Vault synchronization | Bidirectional Obsidian sync + optimistic locking | Producer |
-| **5** | GM runtime | GURPS / PF2e validators ported to Tier 3 | Mechanics Director |
+| **5** | GM runtime | **3D6 System (GURPS 4e compatible)** / PF2e validators ported to Tier 3 | Mechanics Director |
 | **6** | Quantum Plaid alignment | Automated gates: 15 quotes + 12 NPCs + backfire tables | Creative Director |
 | **7** | FCoP orchestration | Queue conventions + collision surfacing to Producer | Producer |
 | **8** | MCP Apps UI | HTML/CSS character sheet previews in chat | Creative Director |

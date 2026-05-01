@@ -17,7 +17,7 @@ Tier 1 — **Producer** in the Osiris sense: scope, **risk absorption**, milesto
 - Resolve cross-department conflicts; escalate to **Creative Director** when tone vs mechanics deadlock.
 - Keep **docs/agents/status/** queues honest — no orphan filenames; collisions surfaced for human merge.
 - Track **Phase 1–10** roadmap execution (`ROADMAP.md`).
-- **Enforce** that studio merges respect **Human–Machine Dual-Layer Pattern** v1.0 (`docs/human-machine-dual-layer-pattern.md` Section 7) and **Output Organization** v1.0 (`.cursor/rules/output-organization.mdc`)—especially reader vs canonical boundaries and where agent artifacts land on disk.
+- **Enforce** that studio merges respect **Human–Machine Dual-Layer Pattern** v1.0.3 (`docs/human-machine-dual-layer-pattern.md` Section 7) and **Output Organization** v1.0 (`.cursor/rules/output-organization.mdc`)—especially reader vs canonical boundaries and where agent artifacts land on disk.
 
 ## Editorial Lead (human layer) — operational handoff
 

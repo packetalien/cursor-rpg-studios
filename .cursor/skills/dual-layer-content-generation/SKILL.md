@@ -7,7 +7,7 @@ description: Create and maintain reader companions per Human–Machine Dual-Laye
 
 **Use this skill when:** drafting or revising **reader companions** (`*-reader.md`, human session layer), filling Surgeon-style reader passes, or validating a chapter’s human layer against Alexandria canonical SSoT.
 
-**Normative source (locked):** [`docs/human-machine-dual-layer-pattern.md`](../../../docs/human-machine-dual-layer-pattern.md) **v1.0.2** (check file header for current).  
+**Normative source (locked):** [`docs/human-machine-dual-layer-pattern.md`](../../../docs/human-machine-dual-layer-pattern.md) **v1.0.3** (check file header for current).  
 **Supporting rules:** [`.cursor/rules/output-organization.mdc`](../../rules/output-organization.mdc); Editorial Lead agent [`.cursor/agents/leads/editorial-lead.md`](../../agents/leads/editorial-lead.md).
 
 ---

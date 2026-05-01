@@ -2,7 +2,7 @@
 
 **Version:** 1.0 (studio overlay)  
 **Last updated:** 2026-04-30  
-**Purpose:** Align generated manuscripts and tooling with *Alexandria Unbound* density, GURPS 4e integrity, and **human editorial veto**.
+**Purpose:** Align generated manuscripts and tooling with *Alexandria Unbound* density, **3D6 System** integrity (**GURPS 4e compatible**), and **human editorial veto**.
 
 ## Core principles
 
@@ -11,7 +11,7 @@
 | **Human imagination first, AI-readable second** | No `alexandria_*_entry_v1` JSON export until prose gates pass Editorial Lead review. |
 | **Quantum Plaid density** | Standard books **≥ 9.0** composite; Gear Libraries / Centerpieces **≥ 9.5**. |
 | **Fifteen operator voices** | Carved-voice quotes / marginalia — personas include **EIC Ledger Clerk**, **Clockwork Baron**, **Marcus Agrippa** flavor lines, *Forbidden Wing* warnings, etc. |
-| **Twelve GURPS 4e NPCs per chapter** | Stat Block Engineer + MCP validation; **no LLM arithmetic** for derived stats. |
+| **Twelve 3D6 System NPCs per chapter** (GURPS 4e compatible) | Stat Block Engineer + MCP validation; **no LLM arithmetic** for derived stats. |
 | **5% Cosmic Backfire** | On critical failure bands per setting doc; **artifacts with value ≥ 80** get full severe-failure tables (Temporal Inversion, Sanity Blast, …). |
 | **Sensory covenant** | Smell / sound / touch explicitly tied to mechanics where applicable. |
 | **Phase bridges** | Explicit `{#anchor}` cross-links to prior books and sister volumes. |

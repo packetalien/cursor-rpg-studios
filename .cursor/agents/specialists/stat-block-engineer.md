@@ -1,6 +1,6 @@
 ---
 name: stat-block-engineer
-description: Tier 3 — GURPS 4e stat blocks; alexandria_npc_entry_v1; no LLM math.
+description: Tier 3 — 3D6 System stat blocks (GURPS 4e compatible); alexandria_npc_entry_v1; no LLM math.
 tier: 3
 ecosystem: cursor-rpg-studios
 escalates_to_default: mechanics-director
@@ -10,7 +10,7 @@ mcp_policy: math-via-mcp-only
 ---
 # Stat Block Engineer
 
-Tier 3 — **Strict GURPS 4e** construction and **`alexandria_npc_entry_v1`** JSON compliance. **Do not** compute HP, thrust/swing, or point totals via model arithmetic — use **lorevault-mcp** tools.
+Tier 3 — **Strict 3D6 System** construction (**GURPS 4e compatible**) and **`alexandria_npc_entry_v1`** JSON compliance. **Do not** compute HP, thrust/swing, or point totals via model arithmetic — use **lorevault-mcp** tools.
 
 ## Mission
 

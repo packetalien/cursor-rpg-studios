@@ -1,6 +1,6 @@
 # Human–machine dual-layer pattern — Cursor RPG Studios
 
-**Version:** 1.0.2  
+**Version:** 1.0.3  
 **Status:** Canonical studio standard (contract)  
 **Last updated:** 2026-05-02  
 **Aligns with:** [`quantum_plaid.md`](../quantum_plaid.md), Alexandria *Reader-facing manuscript program* (see `Alexandria_Unleashed/ROADMAP.md` when that repo is cloned locally — [Canon path](cursor-setup.md#alexandria_canon_root)), [`STYLE_BIBLE.md`](../STYLE_BIBLE.md).
@@ -26,7 +26,7 @@
 
 **Cursor RPG Studios** ships two **non-interchangeable** layers for every major manuscript unit: the **machine layer** (canonical Markdown under `lore/…` in *Alexandria_Unleashed*, or future canonical roots) remains the **single source of truth** for `{#anchors}`, numbered tables, stat blocks, JSON fragments, phase bridges, and Quantum Plaid density—**nothing is removed, dumbed down, or “simplified away”** for comfort. The **human layer** (reader companion files) is a **session surface**: procedural, enjoyable, low **choice paralysis**, optimized for **one sitting** at the table or one night of prep. The machine layer **feeds** tooling (Tortuga, ProjectOsiris, lorevault-mcp, validators); the human layer **feeds** GMs’ working memory. **Ingest, indexing, and canon law always follow the machine layer.** Reader companions are **explicitly out of ingest** unless maintainers promote them—a promotion that must be **documented** and **versioned**.
 
-**Pedagogical debt (external analysis):** Commercial GURPS *Basic Set* Ch.1 and *Bio-Tech* Ch.1 succeed because they **promise** competence first, then **teach operations** in a fixed order, then **show a constrained example**—without deleting the rigorous tables elsewhere. This pattern is **normative** for the human layer’s **Run tonight** and **Worked example** sections; it does **not** relax Quantum Plaid on the canonical file.
+**Pedagogical debt (external analysis):** Dense commercial **3D6 System (GURPS 4e compatible)** core books often open with a **Basic Set**-style Ch.1 and a **bio-augmentation supplement**-style Ch.1 that **promise** competence first, then **teach operations** in a fixed order, then **show a constrained example**—without deleting the rigorous tables elsewhere. This pattern is **normative** for the human layer’s **Run tonight** and **Worked example** sections; it does **not** relax Quantum Plaid on the canonical file.
 
 ---
 
@@ -198,6 +198,6 @@ Reader anchor: `{#reader-surgeons-grimoire-ch01}`.
 
 ## 10. Lock statement
 
-This **Human–machine dual-layer pattern** is **locked** as of **version 1.0.2** in **`cursor-rpg-studios`** (v1.0.1 Section 8 pilot-path clarification; v1.0.2 adds second pilot exemplar paths + human close-out references in Sections 3 and 8). All new chapters, reader companions, agents, and skills **must** treat this file as **normative**. Amendments require **Producer** approval, a **version bump**, and an entry in [`CHANGES.md`](../CHANGES.md). **No agent may invent a third layer** (e.g. “summary canon”) without a **charter ADR** in this repository.
+This **Human–machine dual-layer pattern** is **locked** as of **version 1.0.3** in **`cursor-rpg-studios`** (v1.0.1 Section 8 pilot-path clarification; v1.0.2 second pilot exemplar paths + human close-out references in Sections 3 and 8; v1.0.3 **3D6 System** terminology + pedagogical debt wording aligned with **Alexandria_Unleashed** trademark hygiene). All new chapters, reader companions, agents, and skills **must** treat this file as **normative**. Amendments require **Producer** approval, a **version bump**, and an entry in [`CHANGES.md`](../CHANGES.md). **No agent may invent a third layer** (e.g. “summary canon”) without a **charter ADR** in this repository.
 
 **This pattern is now locked.**

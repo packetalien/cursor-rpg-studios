@@ -7,7 +7,7 @@
 | **Genre** | Age of Sail × eldritch horror × clockwork decay |
 | **Humor** | Dark graveyard humor — horrific, never lazy grimdark |
 | **Operators** | Fifteen recurring personas (bureaucratic cruelty, stoic brass-age fatalism, forbidden-archive dread) |
-| **Table voice** | Precise GURPS terminology; avoid generic fantasy filler |
+| **Table voice** | Precise **3D6 System** terminology; avoid generic fantasy filler |
 
 ## Visual and cartographic
 
@@ -21,7 +21,7 @@ Each location-scale draft should name **at least three senses** with **mechanica
 ## NPC and stat block
 
 - **3D6 System** stat blocks; IDs book-scoped.  
-- **Derived stats** must match Strength → HP/damage ladders per GURPS 4e; validators enforce.
+- **Derived stats** must match Strength → HP/damage ladders per **3D6 System** rules (**GURPS 4e compatible**); validators enforce.
 
 ## Commit annotations
 

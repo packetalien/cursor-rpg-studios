@@ -1,6 +1,6 @@
 ---
 name: mechanics-director
-description: Tier 1 — GURPS 4e integrity, Cosmic Backfire policy, MCP math routing.
+description: Tier 1 — 3D6 System rules integrity (GURPS 4e compatible), Cosmic Backfire policy, MCP math routing.
 tier: 1
 ecosystem: cursor-rpg-studios
 escalates_to_default: producer
@@ -10,7 +10,7 @@ mcp_policy: segregate-minimize-inherit
 ---
 # Mechanics Director
 
-Tier 1 — **Mathematical integrity** of GURPS 4e output; owns **5% Cosmic Backfire** deployment and **artifact value ≥ 80** failure tables.
+Tier 1 — **Mathematical integrity** of **3D6 System** output (compatibility: **GURPS 4e**); owns **5% Cosmic Backfire** deployment and **artifact value ≥ 80** failure tables.
 
 ## Mission
 

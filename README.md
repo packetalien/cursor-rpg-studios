@@ -1,6 +1,6 @@
 # Cursor RPG Studios
 
-**Cursor RPG Studios** is a **production scaffold** for *Alexandria Unbound* (GURPS 4e): a **49-agent / 72-skill** target architecture, **lorevault-mcp** (Python MCP stdio stub), **File-based Coordination Protocol (FCoP)** queues, and **Quantum Plaid** density gates—while keeping **human editorial authority** explicit in rules and workflow docs.
+**Cursor RPG Studios** is a **production scaffold** for *Alexandria Unbound* — the **3D6 System (GURPS 4e compatible)** setting documented in sibling **Alexandria_Unleashed** — with a **49-agent / 72-skill** target architecture, **lorevault-mcp** (Python MCP stdio stub), **File-based Coordination Protocol (FCoP)** queues, and **Quantum Plaid** density gates—while keeping **human editorial authority** explicit in rules and workflow docs.
 
 This repository holds **studio mechanics** (agents, rules, MCP, tests, procedural placeholders). It does **not** ship the Alexandria manuscript corpus; that stays in **Alexandria_Unleashed** (separate clone). See [`lore/alexandria-unbound/README.md`](lore/alexandria-unbound/README.md).
 
@@ -34,7 +34,8 @@ It is **not** a fork of those repositories unless explicitly stated elsewhere. U
 - Software and **documentation in this repository** are provided under the **[MIT License](LICENSE)** *as is*, without warranty.
 - This project is **not** legal, medical, or professional tabletop advice. You are responsible for how you use tools, prompts, and generated text at your table.
 - **Respect intellectual property:** do not commit third-party manuscript text, licensed setting material, or artwork you do not have rights to redistribute. Pair this tooling only with content you own or may lawfully use.
-- **Trademarks** (e.g. *GURPS*) belong to their owners; this repo does not claim affiliation beyond factual references to rules you choose to run.
+- **Steve Jackson Games / GURPS:** **GURPS** is a trademark of [Steve Jackson Games Incorporated](https://www.sjgames.com/). **Cursor RPG Studios** (this repository) is **not** affiliated with, endorsed by, or sponsored by Steve Jackson Games. Use **3D6 System** wording in studio-facing prose where possible; reserve **3D6 System (GURPS 4e compatible)** for places interoperability must be explicit, consistent with **Alexandria_Unleashed** (`README.md` Legal Notice and `lore/Alexandria-Unleashed/LEGAL-HYGIENE-2026-04-27.md`).
+- **Other trademarks** (e.g. game titles, publisher marks) belong to their owners; do not imply endorsement where none exists.
 - If you redistribute a **substantial** portion of this repo’s docs or code, **preserve** license and copyright notices and **attribute** this project appropriately.
 
 ---
@@ -75,7 +76,7 @@ Follow these steps in order. **No API tokens are stored in this repo**—add you
 
 ## Reader companion pilots (dual-layer)
 
-Normative contract: [`docs/human-machine-dual-layer-pattern.md`](docs/human-machine-dual-layer-pattern.md) **v1.0.2** (Section 3 five-section template, Section 8 pilot paths). Filled exemplars and machine-validation reports live under **`attachments/drafts/`** and **`attachments/reports/`** (folder is **gitignored** — copies exist on machines that ran the pilots). Set **`ALEXANDRIA_CANON_ROOT`** to your `Alexandria_Unleashed/lore/Alexandria-Unleashed` checkout for the optional **live-canon** pytest (`12` tests); without it, CI and local default runs stay **fixtures-first** (`11` passed, `1` skipped).
+Normative contract: [`docs/human-machine-dual-layer-pattern.md`](docs/human-machine-dual-layer-pattern.md) **v1.0.3** (Section 3 five-section template, Section 8 pilot paths). Filled exemplars and machine-validation reports live under **`attachments/drafts/`** and **`attachments/reports/`** (folder is **gitignored** — copies exist on machines that ran the pilots). Set **`ALEXANDRIA_CANON_ROOT`** to your `Alexandria_Unleashed/lore/Alexandria-Unleashed` checkout for the optional **live-canon** pytest (`12` tests); without it, CI and local default runs stay **fixtures-first** (`11` passed, `1` skipped).
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## Current status
 
-**On track — dual-layer reader pipeline proven on live Alexandria canon; studio mechanics hardened (2026-05-02).** Two Surgeon’s Grimoire **reader companion pilots** (Ch.01 + Ch.02) were drafted and machine-validated under `attachments/` (gitignored locally) with human Editorial/Producer close-out on Ch.01; contract is **[`docs/human-machine-dual-layer-pattern.md`](docs/human-machine-dual-layer-pattern.md) v1.0.2**. **GitHub Actions** runs `pytest -q` on push/PR to `main`/`master` ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)). **`lorevault-mcp`** remains a **stdio stub**: `semantic_search_lore` / `graph_traversal` return **sentinel** payloads (`_stub`, `stub_notice`) — they are **not** production vector/graph proof; attestation rules still apply ([`ROADMAP.md`](ROADMAP.md) Phases 3–4).
+**On track — dual-layer reader pipeline proven on live Alexandria canon; studio mechanics hardened (2026-05-02).** Two Surgeon’s Grimoire **reader companion pilots** (Ch.01 + Ch.02) were drafted and machine-validated under `attachments/` (gitignored locally) with human Editorial/Producer close-out on Ch.01; contract is **[`docs/human-machine-dual-layer-pattern.md`](docs/human-machine-dual-layer-pattern.md) v1.0.3**. **GitHub Actions** runs `pytest -q` on push/PR to `main`/`master` ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)). **`lorevault-mcp`** remains a **stdio stub**: `semantic_search_lore` / `graph_traversal` return **sentinel** payloads (`_stub`, `stub_notice`) — they are **not** production vector/graph proof; attestation rules still apply ([`ROADMAP.md`](ROADMAP.md) Phases 3–4).
 
 ## Key metrics
 
@@ -18,7 +18,7 @@
 
 ## Recent updates
 
-- **2026-05-02:** Grok-assessment plan executed — Ch.01 human close-out + Ch.02 second pilot under `attachments/` (local forensic), `docs/human-machine-dual-layer-pattern.md` **v1.0.2**, GitHub Actions `pytest` CI, Skill Batch 3 gated pending friction (`CHANGES.md`).
+- **2026-05-02:** Grok-assessment plan executed — Ch.01 human close-out + Ch.02 second pilot under `attachments/` (local forensic), `docs/human-machine-dual-layer-pattern.md` **v1.0.3**, GitHub Actions `pytest` CI, Skill Batch 3 gated pending friction (`CHANGES.md`).
 - **2026-04-30:** GitHub ship prep — README onboarding, `docs/cursor-setup.md`, `LICENSE`, style-audit link hygiene, canon pointer env (`ALEXANDRIA_CANON_ROOT`).
 - **2026-04-30:** Initial scaffolding: roadmap, tasklist, manifest, FCoP queue dir, MCP package stub, pytest wired.
 

@@ -4,7 +4,7 @@
 
 | Field | Value |
 | --- | --- |
-| **Project** | Cursor RPG Studios — *Alexandria Unbound* / GURPS 4e — lorevault-mcp + FCoP |
+| **Project** | Cursor RPG Studios — *Alexandria Unbound* / **3D6 System (GURPS 4e compatible)** — lorevault-mcp + FCoP |
 | **Overall health** | **On track** (scaffolding) |
 | **Last updated** | 2026-04-30 — Phase 1 initialization |
 | **Master roadmap** | [`ROADMAP.md`](ROADMAP.md) |

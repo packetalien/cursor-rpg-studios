@@ -8,7 +8,7 @@ Nine **production phases** from the architectural blueprint; representative slas
 | 2. Worldbuilding | `/team-worldbuild`, `/generate-geography`, `/map-economy`, `/build-city-node`, `/draft-history`, `/simulate-weather`, `/place-artifacts`, `/audit-borders` | `graph_traversal` for territory collisions |
 | 3. Character | `/forge-npc`, `/build-relationship-graph`, `/audit-motivations`, `/generate-ancestry`, `/assign-quirks`, `/draft-dialogue`, `/link-nemesis`, `/verify-npc-count` | `add_character_v1` |
 | 4. Narrative | `/team-narrative`, `/draft-sensory-covenant`, `/inject-quotes`, `/weave-subplot`, `/write-readaloud-text`, `/escalate-tension`, `/draft-clues`, `/audit-horror-tone` | Voice Matcher affinity |
-| 5. Mechanics | `/team-mechanics`, `/validate-gurps-math`, `/forge-loot-table`, `/scale-encounter`, `/apply-armor-divisor`, `/calculate-mass-combat`, `/generate-hazards`, `/audit-spells` | `simulate_roll`, validators |
+| 5. Mechanics | `/team-mechanics`, `/validate-3d6-math`, `/forge-loot-table`, `/scale-encounter`, `/apply-armor-divisor`, `/calculate-mass-combat`, `/generate-hazards`, `/audit-spells` | `simulate_roll`, validators |
 | 6. Polish | `/audit-canon`, `/schwartz-mode-pass`, `/format-tables`, `/verify-phase-bridges`, `/eradicate-ai-slop`, `/balance-economy`, `/check-anchor-links`, `/generate-glossary` | Editorial Lead |
 | 7. Playtest | `/simulate-combat`, `/run-monte-carlo`, `/test-skill-checks`, `/audit-backfire-rates`, `/stress-test-economy`, `/log-casualties`, `/verify-stealth-mechanics`, `/triage-bugs` | Deterministic dice oracle |
 | 8. Publish | `/export-vtt`, `/generate-pdf`, `/build-manifest`, `/compile-json`, `/sync-obsidian`, `/update-changelog`, `/create-handouts`, `/finalize-release` | Foundry/Roll20 exporters |
