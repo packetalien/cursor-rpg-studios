@@ -39,7 +39,7 @@
 | File / area | Problem | Recommended fix |
 | --- | --- | --- |
 | Entire repo vs **Cursor-Game-Studios** | No `scripts/generate-osirisforge-studio.py`, `scripts/agent_phase2_data.py`, `scripts/skill_phase3_data.py`, `scripts/studio-health-check.py`, `tests/test_generator_contracts.py`, `.cursor/subagents/registry.json`. | Add **thin** `scripts/studio_health_stub.py` + `tests/test_repo_layout.py` asserting counts (agents ≥ N, rules ≥ M) until full generator lands. |
-| Root vs CGS | CGS ships `00-osirisforge-game-studio-roadmap-and-phase-1.md`, `01-foreword-and-chapter-01-…`, phase manuals—**cursor-rpg** has no “Chapter 1” studio tome. | Add **`00-cursor-rpg-studios-roadmap-and-phase-1.md`** (or symlink content into `ROADMAP.md` §appendix) matching Osiris **voice + hygiene** section. |
+| Root vs CGS | CGS ships `00-osirisforge-game-studio-roadmap-and-phase-1.md`, `01-foreword-and-chapter-01-…`, phase manuals—**cursor-rpg** has no “Chapter 1” studio tome. | Add **`00-cursor-rpg-studios-roadmap-and-phase-1.md`** (or symlink content into `ROADMAP.md` appendix) matching Osiris **voice + hygiene** section. |
 | `docs/` | Alexandria `Alexandria_Unleashed/TASKLIST.md` states *`docs/` holds `index.md` only`*—cursor-rpg has `docs/cartography-standards.md`, `docs/hardware-runbook.md`, `docs/drafts/`, `docs/agents/`, now `docs/audits/`. | Either **embrace** multi-file `docs/` and **drop** the Alexandria-only rule for this repo (document in `README.md`), or **collapse** satellites into `docs/index.md` anchors + single appendices file per operator policy. |
 | Reference brief | `ROADMAP-PHASE0-UNIFIED.md`, CGS root `STYLE_BIBLE.md` / `CARTOGRAPHY_STANDARDS.md` **not found** in Cursor-Game-Studios. | Update internal references to **actual** CGS paths (`00-osirisforge-…`, `quantum_plaid.md` at CGS root, `docs/unreal-mcp-self-hosted.md`). |
 
@@ -48,7 +48,7 @@
 | File | Problem | Recommended fix |
 | --- | --- | --- |
 | [`ROADMAP.md`](../../ROADMAP.md) | **Quantum Plaid** row says **15** quotes and **12** NPCs; Alexandria `Alexandria_Unleashed/ROADMAP.md` contract says **12–15** quotes and **8–12** NPCs. | Add explicit **“Studio Gemini overlay”** footnote reconciling targets **or** align scaffold to Alexandria SSoT to avoid **dual canon**. |
-| [`ROADMAP.md`](../../ROADMAP.md) | Missing **front matter / word count / ProjectOsiris** rows present in Alexandria phase contract. | Copy **row set** from Alexandria §Quantum Plaid (adapt labels for studio repo). |
+| [`ROADMAP.md`](../../ROADMAP.md) | Missing **front matter / word count / ProjectOsiris** rows present in Alexandria phase contract. | Copy **row set** from Alexandria Quantum Plaid (adapt labels for studio repo). |
 | [`ROADMAP.md`](../../ROADMAP.md) | Index links `quantum_plaid.md` with anchor **`{#quantum-plaid-phase-contract}`** but heading slug may not match GitHub anchor generation when `{#…}` embedded. | Verify generated anchors; prefer **explicit HTML comment anchors** or **duplicate** plain heading. |
 
 ### 3.3 TASKLIST style
@@ -71,7 +71,7 @@
 
 | File | Problem | Recommended fix |
 | --- | --- | --- |
-| [`.cursor/rules/quantum-plaid-density.mdc`](../../.cursor/rules/quantum-plaid-density.mdc) | Strong content; **15 / 12** targets conflict with Alexandria ROADMAP (see §3.2). | Reconcile numbers; cite **authoritative** doc in-rule. |
+| [`.cursor/rules/quantum-plaid-density.mdc`](../../.cursor/rules/quantum-plaid-density.mdc) | Strong content; **15 / 12** targets conflict with Alexandria ROADMAP (see Section 3.2). | Reconcile numbers; cite **authoritative** doc in-rule. |
 | `.cursor/rules` vs CGS | CGS has **12** rules including `mcp-mutation-queue`, `postgis-sql`, `openclaw-heavy`, `security-secrets`—cursor-rpg has **4**. | Add **stub** `.mdc` files for **lore graph**, **timeline**, **cosmic-backfire** (paths aligned to future `vault/` or `lore/`), matching Gemini blueprint table. |
 | Alexandria parity | No rule scoped to **`lore/**/*.md`** mirroring `Cursor-Game-Studios/.cursor/rules/narrative-alexandria.mdc`. | Add **`narrative-alexandria-studio.mdc`** → `lore/**/*.md` + `docs/drafts/**/*.md` with **graph_traversal** mandate. |
 

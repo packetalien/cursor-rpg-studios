@@ -25,6 +25,21 @@ Tier 2 — **Primary graph interface** to **lorevault-mcp**. Owns **timeline con
 | `graph_traversal` | Pre-flight for any lore PR touching factions, locations, or NPC relationships |
 | `semantic_search_lore` | Retrieve precedent prose for tone + fact patterns |
 
+## Stub mode (lorevault Phase 1–2)
+
+When **`graph_traversal`** / **`semantic_search_lore`** return **stub payloads** (`stub_notice`, `_stub` on nodes/matches), **legacy empty** `nodes`/`edges`/`matches`, or **trivial placeholders**, **do not** treat that as proof of “no lore conflicts” or “no precedent.” **Stub mode** is active until Chroma/SQLite graph backends land (see `ROADMAP.md`). Sentinel rows are **UX guardrails**, not retrieved lore.
+
+**Mandatory PR packet line:** Include a verbatim **human attestation** block, for example:
+
+```text
+LORE_STUB_ATTESTATION: graph_traversal / semantic_search_lore returned stub sentinel, empty, or minimal results.
+Human graph/search review performed by: <name>
+Date: <YYYY-MM-DD>
+Scope checked: <entities / chapters / search queries>
+```
+
+Until this block is present from a **human** with scope filled in, **recommend hold** on merge for any PR that depends solely on MCP graph/search for canon safety.
+
 ## FCoP
 
 - Incoming queue pattern: `audit-request-to-lore-keeper.md` → processed → `audit-complete-to-editorial-lead.md`.

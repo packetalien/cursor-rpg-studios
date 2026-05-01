@@ -1,8 +1,8 @@
 # Human–machine dual-layer pattern — Cursor RPG Studios
 
-**Version:** 1.0  
+**Version:** 1.0.2  
 **Status:** Canonical studio standard (contract)  
-**Last updated:** 2026-04-30  
+**Last updated:** 2026-05-02  
 **Aligns with:** [`quantum_plaid.md`](../quantum_plaid.md), Alexandria *Reader-facing manuscript program* (see `Alexandria_Unleashed/ROADMAP.md` when that repo is cloned locally — [Canon path](cursor-setup.md#alexandria_canon_root)), [`STYLE_BIBLE.md`](../STYLE_BIBLE.md).
 
 ---
@@ -49,7 +49,7 @@
 
 | Requirement | Test |
 | --- | --- |
-| Exactly **five** top-level sections after the header block—see [§3](#3-reader-companion-template-mandatory-structure) | Lint or manual |
+| Exactly **five** top-level sections after the header block—see [Section 3](#3-reader-companion-template-mandatory-structure) | Lint or manual |
 | **No new mechanics**—numbers, traits, and procedures must **cite** canonical tables / anchors | Editorial diff: any number must trace to canonical anchor |
 | **Banner** stating not for ingest / Tortuga | String `Do not use for ingest` present |
 | **Single** worked example using **only** mechanics already in canonical chapter | Cross-check anchors exist in canonical |
@@ -101,7 +101,7 @@ Every reader companion **must** use this skeleton (order fixed, headings may kee
 | **Anchor index** | GM-facing list of `{#anchors}` for this session | Subset only; must mirror canonical spelling |
 | **Do not use for ingest** | Legal and tooling boundary | Must forbid Tortuga/Osiris/automation ingest explicitly |
 
-**Reference implementation (skeleton):** `Alexandria_Unleashed/attachments/reader-drafts/surgeons-grimoire/01-foreword-and-chapter-01-living-roman-tradition-reader.md`.
+**Reference implementation (skeleton):** `Alexandria_Unleashed/attachments/reader-drafts/surgeons-grimoire/01-foreword-and-chapter-01-living-roman-tradition-reader.md`. **Pilot exemplars (filled, cursor-rpg only):** Ch.01 `attachments/drafts/2026-05-01_20-00_cursor_pilot-surgeon-ch01-reader-draft.md`; Ch.02 `attachments/drafts/2026-05-02_15-30_cursor_pilot-surgeon-ch02-reader-draft.md` (validations under `attachments/reports/` with matching forensic timestamps).
 
 ---
 
@@ -166,20 +166,22 @@ Allowed **without** violating machine SSoT:
 `lore/Alexandria-Unleashed/04-Surgeons-Grimoire/01-foreword-and-chapter-01-living-roman-tradition.md`  
 Primary anchor: `{#surgeons-ch01}` (file also uses `{#surgeons-ch01-toc}`, `{#surgeons-ch01-quotes}`, `{#surgeons-ch01-core}`, `{#surgeons-ch01-sensory-covenant}`, `{#surgeons-ch01-tables}`, …).
 
-**Reader (human surface):**  
-`attachments/reader-drafts/surgeons-grimoire/01-foreword-and-chapter-01-living-roman-tradition-reader.md`  
+**Reader (human surface) — long-term (Alexandria_Unleashed):**  
+`Alexandria_Unleashed/attachments/reader-drafts/surgeons-grimoire/01-foreword-and-chapter-01-living-roman-tradition-reader.md`  
 Reader anchor: `{#reader-surgeons-grimoire-ch01}`.
+
+**Pilot phase (cursor-rpg-studios only):** Reader companions may be drafted under **`attachments/drafts/`** in this repo (Output Organization v1.0 naming) while **Canonical source (SSoT)** points at the **read-only** Alexandria canonical file via `ALEXANDRIA_CANON_ROOT` / sibling checkout — **no** writes to Alexandria_Unleashed during tooling bring-up. Example pilots: Ch.01 `attachments/drafts/2026-05-01_20-00_cursor_pilot-surgeon-ch01-reader-draft.md` + `attachments/reports/2026-05-01_20-05_cursor_pilot-surgeon-ch01-reader-validation.md`; Ch.02 `attachments/drafts/2026-05-02_15-30_cursor_pilot-surgeon-ch02-reader-draft.md` + `attachments/reports/2026-05-02_15-45_cursor_pilot-surgeon-ch02-reader-validation.md`; human close-out `attachments/reports/2026-05-02_15-00_editorial-lead_pilot-ch01-human-closeout.md`.
 
 | Contract point | How the example obeys it |
 | --- | --- |
 | Separation | Reader header names canonical path; **Do not use for ingest** paragraph present |
-| Template | Five sections present (content TODO in sibling repo is **not** a pattern violation—structure is) |
+| Template | Five sections present; pilot may be filled in `cursor-rpg-studios` `attachments/drafts/` or skeleton in sibling repo |
 | Worked example constraint | When filled, must use e.g. **T-SG101–T-SG103** and triage tags from canonical **only** |
 | Voice | Canonical holds **18** quotes; reader **Start here** may quote **one** line **verbatim** with attribution to carved-voice block |
 
 **Mini worked example (illustrative excerpt for *this* contract doc only):**
 
-- **Run tonight (sketch):** (1) Open canonical `{#surgeons-ch01-tables}`. (2) Run mass-casualty scene using **T-SG101** site row + **T-SG102** tag row. (3) Apply **§5a** sensory check from `{#surgeons-ch01-sensory-covenant}`—if fewer than three channels, deny elite insight bonus **as canonical states**.
+- **Run tonight (sketch):** (1) Open canonical `{#surgeons-ch01-tables}`. (2) Run mass-casualty scene using **T-SG101** site row + **T-SG102** tag row. (3) Apply **Section 5a** sensory check from `{#surgeons-ch01-sensory-covenant}`—if fewer than three channels, deny elite insight bonus **as canonical states**.
 
 ---
 
@@ -187,7 +189,7 @@ Reader anchor: `{#reader-surgeons-grimoire-ch01}`.
 
 | Mechanism | Enforcement |
 | --- | --- |
-| **`.cursor/rules`** | Add path-scoped rule: `attachments/reader-drafts/**/*.md` and `**/*-reader.md` → must match §3 template; `lore/**/*.md` → no reader-only mechanics |
+| **`.cursor/rules`** | Add path-scoped rule: `attachments/reader-drafts/**/*.md` and `**/*-reader.md` → must match Section 3 template; `lore/**/*.md` → no reader-only mechanics |
 | **Agents** | **Editorial Lead** approves reader PRs; **Lore Keeper** verifies anchors; **Stat Block Engineer** blocks invented numbers |
 | **Skills** | Slash/playbooks e.g. `/reader-pass`, `/sync-reader-layer` must run **extract → diff → verify** pipeline |
 | **CI** | `tests/test_reader_template.py` (headings), `tests/test_anchor_subset.py` (reader ⊆ canonical) when paths exist in this repo |
@@ -196,6 +198,6 @@ Reader anchor: `{#reader-surgeons-grimoire-ch01}`.
 
 ## 10. Lock statement
 
-This **Human–machine dual-layer pattern** is **locked** as of **version 1.0** in **`cursor-rpg-studios`**. All new chapters, reader companions, agents, and skills **must** treat this file as **normative**. Amendments require **Producer** approval, a **version bump**, and an entry in [`CHANGES.md`](../CHANGES.md). **No agent may invent a third layer** (e.g. “summary canon”) without a **charter ADR** in this repository.
+This **Human–machine dual-layer pattern** is **locked** as of **version 1.0.2** in **`cursor-rpg-studios`** (v1.0.1 Section 8 pilot-path clarification; v1.0.2 adds second pilot exemplar paths + human close-out references in Sections 3 and 8). All new chapters, reader companions, agents, and skills **must** treat this file as **normative**. Amendments require **Producer** approval, a **version bump**, and an entry in [`CHANGES.md`](../CHANGES.md). **No agent may invent a third layer** (e.g. “summary canon”) without a **charter ADR** in this repository.
 
 **This pattern is now locked.**

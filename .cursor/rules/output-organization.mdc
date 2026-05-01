@@ -1,0 +1,30 @@
+---
+description: Forensic agent outputs — attachments/ tree, naming, promote to docs.
+globs: "**/*"
+alwaysApply: true
+---
+# Output Organization Rule — cursor-rpg-studios
+
+**Version:** 1.0  
+**Status:** Locked  
+**Purpose:** All agent outputs are captured in a clean, forensic-friendly structure for long-term review ("find the body later").
+
+## Rules
+
+1. All agent outputs must go into `attachments/`
+2. Use this folder structure:
+   ```
+   attachments/
+   ├── audits/
+   ├── reports/
+   ├── drafts/
+   ├── agent-logs/
+   └── misc/
+   ```
+3. **Mandatory naming convention:**
+   `YYYY-MM-DD_HH-MM_agent-or-purpose_short-descriptive-slug.md`
+
+4. `attachments/` is gitignored.
+5. Final approved documents should be promoted to `docs/`.
+
+**Best Practice:** Use clear, descriptive slugs. For high-value files, consider adding YAML frontmatter with metadata.

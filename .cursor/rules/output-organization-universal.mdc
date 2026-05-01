@@ -1,0 +1,30 @@
+---
+description: Reference only — copy this file to other projects as .cursor/rules/output-organization.mdc (Universal Standard).
+globs: ".cursor/rules/output-organization-universal.mdc"
+alwaysApply: false
+---
+# Output Organization Rule — Universal Standard
+
+**Version:** 1.0  
+**Status:** Locked (Applies to all projects)  
+**Purpose:** All AI agent outputs are captured in a clean, forensic-friendly structure for long-term human and AI review ("find the body later").
+
+## Core Rules
+
+1. All agent outputs must go into `attachments/`
+2. Use this standard folder structure:
+   ```
+   attachments/
+   ├── audits/
+   ├── reports/
+   ├── drafts/
+   ├── agent-logs/
+   └── misc/
+   ```
+3. **Mandatory naming convention:**
+   `YYYY-MM-DD_HH-MM_agent-or-purpose_short-descriptive-slug.md`
+
+4. The entire `attachments/` folder is gitignored.
+5. Final, approved documents should be promoted to `docs/`.
+
+**Best Practice:** Use clear, descriptive slugs. For high-value forensic files, consider adding YAML frontmatter with metadata (agent, prompt summary, outcome).

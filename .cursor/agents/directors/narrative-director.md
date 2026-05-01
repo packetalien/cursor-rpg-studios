@@ -23,6 +23,8 @@ Tier 1 — **Global plot architecture** for *Alexandria Unbound*: act structure,
 - **semantic_search_lore:** retrieve tone-consistent passages (burning copper, ozone thaumaturgy, brass-sea acoustics) before writing new set-pieces.
 - **graph_traversal:** when introducing a new NPC with faction ties, verify edges against existing alliance/betrayal chains.
 
+**Stub sentinel (Phase 1–2):** Tool responses may include `stub_notice` and `_stub` markers — treat like **legacy empty payloads** for proof: use **read-only canonical text** + `anchor-validation-sync` / `check-anchor-links`; require **LORE_STUB_ATTESTATION** before any continuity claim that rested on MCP alone. **Pilot reference:** Surgeon Grimoire Ch.01 reader chain under `attachments/drafts/` + `dual-layer-content-generation` → `reader-template-enforcer` order.
+
 ## Deliverables checklist (per chapter phase)
 
 | Gate | Requirement |

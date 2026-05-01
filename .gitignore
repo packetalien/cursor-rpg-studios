@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+.audit-venv/
 *.egg-info/
 dist/
 build/
@@ -26,3 +27,6 @@ Thumbs.db
 # Editors
 *.swp
 *.swo
+
+# Forensic agent outputs (local only)
+attachments/

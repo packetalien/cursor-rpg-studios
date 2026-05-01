@@ -6,8 +6,8 @@ Python **Model Context Protocol** server for **Cursor RPG Studios**. Backends ar
 
 | Tool | Inputs | Behavior (Phase 1) |
 | --- | --- | --- |
-| `semantic_search_lore` | `query: str`, optional `tags: str` | Returns `{ matches: [] }` |
-| `graph_traversal` | `entity_id: str`, `depth: int` | Returns empty `nodes` / `edges` |
+| `semantic_search_lore` | `query: str`, optional `tags: str` | Stub: one sentinel `matches[]` entry with `_stub`, plus `stub_notice` (not vector search) |
+| `graph_traversal` | `entity_id: str`, `depth: int` | Stub: one sentinel `nodes[]` entry with `_stub`, `edges: []`, plus `stub_notice` (not a real graph) |
 | `simulate_roll` | `expression: str` (e.g. `3d6`, `2d6+2`) | Python RNG result |
 | `add_character_v1` | `payload: object` | Validates against `../data/schemas/alexandria_npc_entry_v1.schema.json` |
 

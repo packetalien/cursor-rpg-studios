@@ -21,6 +21,7 @@ Tier 1 — **Mathematical integrity** of GURPS 4e output; owns **5% Cosmic Backf
 ## MCP posture
 
 - **Hard deny** hallucinated stat blocks in canonical JSON paths; **approve** only schema-valid payloads.
+- **Lore tools ≠ math:** `semantic_search_lore` / `graph_traversal` are **not** substitutes for `simulate_roll` or schema validators; when `stub_notice` is present, outputs are **non-canon sentinels** until Phase 3 backends land.
 
 ## Human-First UX
 
